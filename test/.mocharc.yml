@@ -1,0 +1,6 @@
+check-leaks: true
+recursive: true
+reporter: dot
+spec: "test/**/*.js"
+ignore: "test/client/**"
+require: "test/fixtures/env"

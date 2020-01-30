@@ -1,0 +1,6 @@
+check-leaks: true
+recursive: true
+reporter: dot
+interactive: false
+spec: "test/client/**/*.js"
+webpack-config: "webpack.config-test.js"
